@@ -1,0 +1,13 @@
+@use '/home/jhony75/Documents/FIAP/AM/frontRapido/assets/sass/abstracts/_variables.scss';
+@use '/home/jhony75/Documents/FIAP/AM/frontRapido/assets/sass/components/_tables.scss';
+@use '/home/jhony75/Documents/FIAP/AM/frontRapido/assets/sass/components/_select.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Inconsolata&display=swap');
+
+body {
+  font-family: variables.$defaultFont
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: variables.$titleFont;
+}
