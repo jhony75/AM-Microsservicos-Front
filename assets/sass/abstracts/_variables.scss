@@ -1,8 +1,19 @@
-$SPBlue: #3C3473;
-$SPYellow: #F2E205;
-$SPBlack: #261F1D;
-$SPRed: #D91E1E;
-$SPWhite: #FFFFFF;
+/* Main colors */
+$SPBlack: #191716;
+$SPWhite: #FFFDFC;
+$SPMainBlue: #0C509D;    //Main blue to use on all parts
+$SPDarkerBlue: #14396C;  //Secondary blue to draw attention
+$SPDarkestBlue: #1B213B; //Blue for details
+$SPLightBlue: #5297D0;   //Cyan like blue to use for highlights
+/* End of the main colors */
 
+/* Other colors */
+/* DO NOT USE - COLORS NOT DEFINED ON DOCUMENTATION */
+$SPYellow: #F2E205;
+$SPRed: #D91E1E;
+/* End of other colors. */
+
+/* Fonts */
 $titleFont:'EB Garamond', serif;
 $defaultFont: 'Inconsolata', monospace;
+/* End of the fonts declaration */

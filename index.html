@@ -9,45 +9,658 @@
   <link href="assets/main.css" rel="stylesheet">
 </head>
 <body>
-  <h1>Escolha um município</h1>
   <script src="script.js"></script>
-  <div class="select">
-    <select>
-      <option value="Adamantina">Adamantina</option>
-      <option value="Adolfo">Adolfo</option>
-      <option value="Aguaí">Aguaí</option>
-    </select>
-  </div>
-  <table class="tg">
-    <thead>
-      <tr>
-        <th class="tg-0pky">Descrição</th>
-        <th class="tg-0pky">Valor</th>
-        <th class="tg-0pky">Data</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="tg-0pky">Lorem</td>
-        <td class="tg-0pky">R$ 1000,00</td>
-        <td class="tg-0pky">01/01/01</td>
-      </tr>
-      <tr>
-        <td class="tg-0pky">Ipsum</td>
-        <td class="tg-0pky">R$ 1000,00</td>
-        <td class="tg-0pky">01/01/01</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">Dolor</td>
-        <td class="tg-0pky">R$ 1000,00</td>
-        <td class="tg-0pky">01/01/01</td>
-      </tr>
-      <tr>
-        <td class="tg-0lax">Sit</td>
-        <td class="tg-0pky">R$ 1000,00</td>
-        <td class="tg-0pky">01/01/01</td>
-      </tr>
-    </tbody>
-    </table>
+  <h1>Escolha um município</h1>
+  <form>
+    <input class="chosen-value" type="text" value="" placeholder="Selecione um Município">
+    <ul class="value-list">
+      <li>Adamantina</li>
+      <li>Adolfo</li>
+      <li>Aguaí</li>
+      <li>Águas da Prata</li>
+      <li>Águas de Lindóia</li>
+      <li>Águas de Santa Bárbara</li>
+      <li>Águas de São Pedro</li>
+      <li>Agudos</li>
+      <li>Alambari</li>
+      <li>Alfredo Marcondes</li>
+      <li>Altair</li>
+      <li>Altinópolis</li>
+      <li>Alto Alegre</li>
+      <li>Alumínio</li>
+      <li>Álvares Florence</li>
+      <li>Álvares Machado</li>
+      <li>Álvaro de Carvalho</li>
+      <li>Alvinlândia</li>
+      <li>Americana</li>
+      <li>Américo Brasiliense</li>
+      <li>Américo de Campos</li>
+      <li>Amparo</li>
+      <li>Analândia</li>
+      <li>Andradina</li>
+      <li>Angatuba</li>
+      <li>Anhembi</li>
+      <li>Anhumas</li>
+      <li>Aparecida</li>
+      <li>Aparecida d'Oeste</li>
+      <li>Apiaí</li>
+      <li>Araçariguama</li>
+      <li>Araçatuba</li>
+      <li>Araçoiaba da Serra</li>
+      <li>Aramina</li>
+      <li>Arandu</li>
+      <li>Arapeí</li>
+      <li>Araraquara</li>
+      <li>Araras</li>
+      <li>Arco-Íris</li>
+      <li>Arealva</li>
+      <li>Areias</li>
+      <li>Areiópolis</li>
+      <li>Ariranha</li>
+      <li>Artur Nogueira</li>
+      <li>Arujá</li>
+      <li>Aspásia</li>
+      <li>Assis</li>
+      <li>Atibaia</li>
+      <li>Auriflama</li>
+      <li>Avaí</li>
+      <li>Avanhandava</li>
+      <li>Avaré</li>
+      <li>Bady Bassitt</li>
+      <li>Balbinos</li>
+      <li>Bálsamo</li>
+      <li>Bananal</li>
+      <li>Barão de Antonina</li>
+      <li>Barbosa</li>
+      <li>Bariri</li>
+      <li>Barra Bonita</li>
+      <li>Barra do Chapéu</li>
+      <li>Barra do Turvo</li>
+      <li>Barretos</li>
+      <li>Barrinha</li>
+      <li>Barueri</li>
+      <li>Bastos</li>
+      <li>Batatais</li>
+      <li>Bauru</li>
+      <li>Bebedouro</li>
+      <li>Bento de Abreu</li>
+      <li>Bernardino de Campos</li>
+      <li>Bertioga</li>
+      <li>Bilac</li>
+      <li>Birigui</li>
+      <li>Biritiba Mirim</li>
+      <li>Boa Esperança do Sul</li>
+      <li>Bocaina</li>
+      <li>Bofete</li>
+      <li>Boituva</li>
+      <li>Bom Jesus dos Perdões</li>
+      <li>Bom Sucesso de Itararé</li>
+      <li>Borá</li>
+      <li>Boracéia</li>
+      <li>Borborema</li>
+      <li>Borebi</li>
+      <li>Botucatu</li>
+      <li>Bragança Paulista</li>
+      <li>Braúna</li>
+      <li>Brejo Alegre</li>
+      <li>Brodowski</li>
+      <li>Brotas</li>
+      <li>Buri</li>
+      <li>Buritama</li>
+      <li>Buritizal</li>
+      <li>Cabrália Paulista</li>
+      <li>Cabreúva</li>
+      <li>Caçapava</li>
+      <li>Cachoeira Paulista</li>
+      <li>Caconde</li>
+      <li>Cafelândia</li>
+      <li>Caiabu</li>
+      <li>Caieiras</li>
+      <li>Caiuá</li>
+      <li>Cajamar</li>
+      <li>Cajati</li>
+      <li>Cajobi</li>
+      <li>Cajuru</li>
+      <li>Campina do Monte Alegre</li>
+      <li>Campinas</li>
+      <li>Campo Limpo Paulista</li>
+      <li>Campos Novos Paulista</li>
+      <li>Campos do Jordão</li>
+      <li>Cananéia</li>
+      <li>Canas</li>
+      <li>Cândido Mota</li>
+      <li>Cândido Rodrigues</li>
+      <li>Canitar</li>
+      <li>Capão Bonito</li>
+      <li>Capela do Alto</li>
+      <li>Capivari</li>
+      <li>Caraguatatuba</li>
+      <li>Carapicuíba</li>
+      <li>Cardoso</li>
+      <li>Casa Branca</li>
+      <li>Cássia dos Coqueiros</li>
+      <li>Castilho</li>
+      <li>Catanduva</li>
+      <li>Catiguá</li>
+      <li>Cedral</li>
+      <li>Cerqueira César</li>
+      <li>Cerquilho</li>
+      <li>Cesário Lange</li>
+      <li>Charqueada</li>
+      <li>Chavantes</li>
+      <li>Clementina</li>
+      <li>Colina</li>
+      <li>Colômbia</li>
+      <li>Conchal</li>
+      <li>Conchas</li>
+      <li>Cordeirópolis</li>
+      <li>Coroados</li>
+      <li>Coronel Macedo</li>
+      <li>Corumbataí</li>
+      <li>Cosmópolis</li>
+      <li>Cosmorama</li>
+      <li>Cotia</li>
+      <li>Cravinhos</li>
+      <li>Cristais Paulista</li>
+      <li>Cruzália</li>
+      <li>Cruzeiro</li>
+      <li>Cubatão</li>
+      <li>Cunha</li>
+      <li>Descalvado</li>
+      <li>Diadema</li>
+      <li>Dirce Reis</li>
+      <li>Divinolândia</li>
+      <li>Dobrada</li>
+      <li>Dois Córregos</li>
+      <li>Dolcinópolis</li>
+      <li>Dourado</li>
+      <li>Dracena</li>
+      <li>Duartina</li>
+      <li>Dumont</li>
+      <li>Echaporã</li>
+      <li>Eldorado</li>
+      <li>Elias Fausto</li>
+      <li>Elisiário</li>
+      <li>Embaúba</li>
+      <li>Embu das Artes</li>
+      <li>Embu-Guaçu</li>
+      <li>Emilianópolis</li>
+      <li>Engenheiro Coelho</li>
+      <li>Espírito Santo do Pinhal</li>
+      <li>Espírito Santo do Turvo</li>
+      <li>Estiva Gerbi</li>
+      <li>Estrela d'Oeste</li>
+      <li>Estrela do Norte</li>
+      <li>Euclides da Cunha Paulista</li>
+      <li>Fartura</li>
+      <li>Fernando Prestes</li>
+      <li>Fernandópolis</li>
+      <li>Fernão</li>
+      <li>Ferraz de Vasconcelos</li>
+      <li>Flora Rica</li>
+      <li>Floreal</li>
+      <li>Flórida Paulista</li>
+      <li>Florínea</li>
+      <li>Franca</li>
+      <li>Francisco Morato</li>
+      <li>Franco da Rocha</li>
+      <li>Gabriel Monteiro</li>
+      <li>Gália</li>
+      <li>Garça</li>
+      <li>Gastão Vidigal</li>
+      <li>Gavião Peixoto</li>
+      <li>General Salgado</li>
+      <li>Getulina</li>
+      <li>Glicério</li>
+      <li>Guaiçara</li>
+      <li>Guaimbê</li>
+      <li>Guaíra</li>
+      <li>Guapiaçu</li>
+      <li>Guapiara</li>
+      <li>Guará</li>
+      <li>Guaraçaí</li>
+      <li>Guaraci</li>
+      <li>Guarani d'Oeste</li>
+      <li>Guarantã</li>
+      <li>Guararapes</li>
+      <li>Guararema</li>
+      <li>Guaratinguetá</li>
+      <li>Guareí</li>
+      <li>Guariba</li>
+      <li>Guarujá</li>
+      <li>Guarulhos</li>
+      <li>Guatapará</li>
+      <li>Guzolândia</li>
+      <li>Herculândia</li>
+      <li>Holambra</li>
+      <li>Hortolândia</li>
+      <li>Iacanga</li>
+      <li>Iacri</li>
+      <li>Iaras</li>
+      <li>Ibaté</li>
+      <li>Ibirá</li>
+      <li>Ibirarema</li>
+      <li>Ibitinga</li>
+      <li>Ibiúna</li>
+      <li>Icém</li>
+      <li>Iepê</li>
+      <li>Igaraçu do Tietê</li>
+      <li>Igarapava</li>
+      <li>Igaratá</li>
+      <li>Iguape</li>
+      <li>Ilha Comprida</li>
+      <li>Ilha Solteira</li>
+      <li>Ilhabela</li>
+      <li>Indaiatuba</li>
+      <li>Indiana</li>
+      <li>Indiaporã</li>
+      <li>Inúbia Paulista</li>
+      <li>Ipaussu</li>
+      <li>Iperó</li>
+      <li>Ipeúna</li>
+      <li>Ipiguá</li>
+      <li>Iporanga</li>
+      <li>Ipuã</li>
+      <li>Iracemápolis</li>
+      <li>Irapuã</li>
+      <li>Irapuru</li>
+      <li>Itaberá</li>
+      <li>Itaí</li>
+      <li>Itajobi</li>
+      <li>Itaju</li>
+      <li>Itanhaém</li>
+      <li>Itaoca</li>
+      <li>Itapecerica da Serra</li>
+      <li>Itapetininga</li>
+      <li>Itapeva</li>
+      <li>Itapevi</li>
+      <li>Itapira</li>
+      <li>Itapirapuã Paulista</li>
+      <li>Itápolis</li>
+      <li>Itaporanga</li>
+      <li>Itapuí</li>
+      <li>Itapura</li>
+      <li>Itaquaquecetuba</li>
+      <li>Itararé</li>
+      <li>Itariri</li>
+      <li>Itatiba</li>
+      <li>Itatinga</li>
+      <li>Itirapina</li>
+      <li>Itirapuã</li>
+      <li>Itobi</li>
+      <li>Itu</li>
+      <li>Itupeva</li>
+      <li>Ituverava</li>
+      <li>Jaborandi</li>
+      <li>Jaboticabal</li>
+      <li>Jacareí</li>
+      <li>Jaci</li>
+      <li>Jacupiranga</li>
+      <li>Jaguariúna</li>
+      <li>Jales</li>
+      <li>Jambeiro</li>
+      <li>Jandira</li>
+      <li>Jardinópolis</li>
+      <li>Jarinu</li>
+      <li>Jaú</li>
+      <li>Jeriquara</li>
+      <li>Joanópolis</li>
+      <li>João Ramalho</li>
+      <li>José Bonifácio</li>
+      <li>Júlio Mesquita</li>
+      <li>Jumirim</li>
+      <li>Jundiaí</li>
+      <li>Junqueirópolis</li>
+      <li>Juquiá</li>
+      <li>Juquitiba</li>
+      <li>Lagoinha</li>
+      <li>Laranjal Paulista</li>
+      <li>Lavínia</li>
+      <li>Lavrinhas</li>
+      <li>Leme</li>
+      <li>Lençóis Paulista</li>
+      <li>Limeira</li>
+      <li>Lindóia</li>
+      <li>Lins</li>
+      <li>Lorena</li>
+      <li>Lourdes</li>
+      <li>Louveira</li>
+      <li>Lucélia</li>
+      <li>Lucianópolis</li>
+      <li>Luís Antônio</li>
+      <li>Luiziânia</li>
+      <li>Lupércio</li>
+      <li>Lutécia</li>
+      <li>Macatuba</li>
+      <li>Macaubal</li>
+      <li>Macedônia</li>
+      <li>Magda</li>
+      <li>Mairinque</li>
+      <li>Mairiporã</li>
+      <li>Manduri</li>
+      <li>Marabá Paulista</li>
+      <li>Maracaí</li>
+      <li>Marapoama</li>
+      <li>Mariápolis</li>
+      <li>Marília</li>
+      <li>Marinópolis</li>
+      <li>Martinópolis</li>
+      <li>Matão</li>
+      <li>Mauá</li>
+      <li>Mendonça</li>
+      <li>Meridiano</li>
+      <li>Mesópolis</li>
+      <li>Miguelópolis</li>
+      <li>Mineiros do Tietê</li>
+      <li>Mira Estrela</li>
+      <li>Miracatu</li>
+      <li>Mirandópolis</li>
+      <li>Mirante do Paranapanema</li>
+      <li>Mirassol</li>
+      <li>Mirassolândia</li>
+      <li>Mococa</li>
+      <li>Mogi Guaçu</li>
+      <li>Mogi Mirim</li>
+      <li>Mogi das Cruzes</li>
+      <li>Mombuca</li>
+      <li>Monções</li>
+      <li>Mongaguá</li>
+      <li>Monte Alegre do Sul</li>
+      <li>Monte Alto</li>
+      <li>Monte Aprazível</li>
+      <li>Monte Azul Paulista</li>
+      <li>Monte Castelo</li>
+      <li>Monte Mor</li>
+      <li>Monteiro Lobato</li>
+      <li>Morro Agudo</li>
+      <li>Morungaba</li>
+      <li>Motuca</li>
+      <li>Murutinga do Sul</li>
+      <li>Nantes</li>
+      <li>Narandiba</li>
+      <li>Natividade da Serra</li>
+      <li>Nazaré Paulista</li>
+      <li>Neves Paulista</li>
+      <li>Nhandeara</li>
+      <li>Nipoã</li>
+      <li>Nova Aliança</li>
+      <li>Nova Campina</li>
+      <li>Nova Canaã Paulista</li>
+      <li>Nova Castilho</li>
+      <li>Nova Europa</li>
+      <li>Nova Granada</li>
+      <li>Nova Guataporanga</li>
+      <li>Nova Independência</li>
+      <li>Nova Luzitânia</li>
+      <li>Nova Odessa</li>
+      <li>Novais</li>
+      <li>Novo Horizonte</li>
+      <li>Nuporanga</li>
+      <li>Ocauçu</li>
+      <li>Óleo</li>
+      <li>Olímpia</li>
+      <li>Onda Verde</li>
+      <li>Oriente</li>
+      <li>Orindiúva</li>
+      <li>Orlândia</li>
+      <li>Osasco</li>
+      <li>Oscar Bressane</li>
+      <li>Osvaldo Cruz</li>
+      <li>Ourinhos</li>
+      <li>Ouro Verde</li>
+      <li>Ouroeste</li>
+      <li>Pacaembu</li>
+      <li>Palestina</li>
+      <li>Palmares Paulista</li>
+      <li>Palmeira d'Oeste</li>
+      <li>Palmital</li>
+      <li>Panorama</li>
+      <li>Paraguaçu Paulista</li>
+      <li>Paraibuna</li>
+      <li>Paraíso</li>
+      <li>Paranapanema</li>
+      <li>Paranapuã</li>
+      <li>Parapuã</li>
+      <li>Pardinho</li>
+      <li>Pariquera-Açu</li>
+      <li>Parisi</li>
+      <li>Patrocínio Paulista</li>
+      <li>Paulicéia</li>
+      <li>Paulínia</li>
+      <li>Paulistânia</li>
+      <li>Paulo de Faria</li>
+      <li>Pederneiras</li>
+      <li>Pedra Bela</li>
+      <li>Pedranópolis</li>
+      <li>Pedregulho</li>
+      <li>Pedreira</li>
+      <li>Pedrinhas Paulista</li>
+      <li>Pedro de Toledo</li>
+      <li>Penápolis</li>
+      <li>Pereira Barreto</li>
+      <li>Pereiras</li>
+      <li>Peruíbe</li>
+      <li>Piacatu</li>
+      <li>Piedade</li>
+      <li>Pilar do Sul</li>
+      <li>Pindamonhangaba</li>
+      <li>Pindorama</li>
+      <li>Pinhalzinho</li>
+      <li>Piquerobi</li>
+      <li>Piquete</li>
+      <li>Piracaia</li>
+      <li>Piracicaba</li>
+      <li>Piraju</li>
+      <li>Pirajuí</li>
+      <li>Pirangi</li>
+      <li>Pirapora do Bom Jesus</li>
+      <li>Pirapozinho</li>
+      <li>Pirassununga</li>
+      <li>Piratininga</li>
+      <li>Pitangueiras</li>
+      <li>Planalto</li>
+      <li>Platina</li>
+      <li>Poá</li>
+      <li>Poloni</li>
+      <li>Pompéia</li>
+      <li>Pongaí</li>
+      <li>Pontal</li>
+      <li>Pontalinda</li>
+      <li>Pontes Gestal</li>
+      <li>Populina</li>
+      <li>Porangaba</li>
+      <li>Porto Feliz</li>
+      <li>Porto Ferreira</li>
+      <li>Potim</li>
+      <li>Potirendaba</li>
+      <li>Pracinha</li>
+      <li>Pradópolis</li>
+      <li>Praia Grande</li>
+      <li>Pratânia</li>
+      <li>Presidente Alves</li>
+      <li>Presidente Bernardes</li>
+      <li>Presidente Epitácio</li>
+      <li>Presidente Prudente</li>
+      <li>Presidente Venceslau</li>
+      <li>Promissão</li>
+      <li>Quadra</li>
+      <li>Quatá</li>
+      <li>Queiroz</li>
+      <li>Queluz</li>
+      <li>Quintana</li>
+      <li>Rafard</li>
+      <li>Rancharia</li>
+      <li>Redenção da Serra</li>
+      <li>Regente Feijó</li>
+      <li>Reginópolis</li>
+      <li>Registro</li>
+      <li>Restinga</li>
+      <li>Ribeira</li>
+      <li>Ribeirão Bonito</li>
+      <li>Ribeirão Branco</li>
+      <li>Ribeirão Corrente</li>
+      <li>Ribeirão Grande</li>
+      <li>Ribeirão Pires</li>
+      <li>Ribeirão Preto</li>
+      <li>Ribeirão do Sul</li>
+      <li>Ribeirão dos Índios</li>
+      <li>Rifaina</li>
+      <li>Rincão</li>
+      <li>Rinópolis</li>
+      <li>Rio Claro</li>
+      <li>Rio Grande da Serra</li>
+      <li>Rio das Pedras</li>
+      <li>Riolândia</li>
+      <li>Riversul</li>
+      <li>Rosana</li>
+      <li>Roseira</li>
+      <li>Rubiácea</li>
+      <li>Rubinéia</li>
+      <li>Sabino</li>
+      <li>Sagres</li>
+      <li>Sales</li>
+      <li>Sales Oliveira</li>
+      <li>Salesópolis</li>
+      <li>Salmourão</li>
+      <li>Saltinho</li>
+      <li>Salto</li>
+      <li>Salto Grande</li>
+      <li>Salto de Pirapora</li>
+      <li>Sandovalina</li>
+      <li>Santa Adélia</li>
+      <li>Santa Albertina</li>
+      <li>Santa Bárbara d'Oeste</li>
+      <li>Santa Branca</li>
+      <li>Santa Clara d'Oeste</li>
+      <li>Santa Cruz da Conceição</li>
+      <li>Santa Cruz da Esperança</li>
+      <li>Santa Cruz das Palmeiras</li>
+      <li>Santa Cruz do Rio Pardo</li>
+      <li>Santa Ernestina</li>
+      <li>Santa Fé do Sul</li>
+      <li>Santa Gertrudes</li>
+      <li>Santa Isabel</li>
+      <li>Santa Lúcia</li>
+      <li>Santa Maria da Serra</li>
+      <li>Santa Mercedes</li>
+      <li>Santa Rita d'Oeste</li>
+      <li>Santa Rita do Passa Quatro</li>
+      <li>Santa Rosa de Viterbo</li>
+      <li>Santa Salete</li>
+      <li>Santana da Ponte Pensa</li>
+      <li>Santana de Parnaíba</li>
+      <li>Santo Anastácio</li>
+      <li>Santo André</li>
+      <li>Santo Antônio da Alegria</li>
+      <li>Santo Antônio de Posse</li>
+      <li>Santo Antônio do Aracanguá</li>
+      <li>Santo Antônio do Jardim</li>
+      <li>Santo Antônio do Pinhal</li>
+      <li>Santo Expedito</li>
+      <li>Santópolis do Aguapeí</li>
+      <li>Santos</li>
+      <li>São Bento do Sapucaí</li>
+      <li>São Bernardo do Campo</li>
+      <li>São Caetano do Sul</li>
+      <li>São Carlos</li>
+      <li>São Francisco</li>
+      <li>São João da Boa Vista</li>
+      <li>São João das Duas Pontes</li>
+      <li>São João de Iracema</li>
+      <li>São João do Pau d'Alho</li>
+      <li>São Joaquim da Barra</li>
+      <li>São José da Bela Vista</li>
+      <li>São José do Barreiro</li>
+      <li>São José do Rio Pardo</li>
+      <li>São José do Rio Preto</li>
+      <li>São José dos Campos</li>
+      <li>São Lourenço da Serra</li>
+      <li>São Luiz do Paraitinga</li>
+      <li>São Manuel</li>
+      <li>São Miguel Arcanjo</li>
+      <li>São Paulo</li>
+      <li>São Pedro</li>
+      <li>São Pedro do Turvo</li>
+      <li>São Roque</li>
+      <li>São Sebastião</li>
+      <li>São Sebastião da Grama</li>
+      <li>São Simão</li>
+      <li>São Vicente</li>
+      <li>Sarapuí</li>
+      <li>Sarutaiá</li>
+      <li>Sebastianópolis do Sul</li>
+      <li>Serra Azul</li>
+      <li>Serra Negra</li>
+      <li>Serrana</li>
+      <li>Sertãozinho</li>
+      <li>Sete Barras</li>
+      <li>Severínia</li>
+      <li>Silveiras</li>
+      <li>Socorro</li>
+      <li>Sorocaba</li>
+      <li>Sud Mennucci</li>
+      <li>Sumaré</li>
+      <li>Suzanápolis</li>
+      <li>Suzano</li>
+      <li>Tabapuã</li>
+      <li>Tabatinga</li>
+      <li>Taboão da Serra</li>
+      <li>Taciba</li>
+      <li>Taguaí</li>
+      <li>Taiaçu</li>
+      <li>Taiúva</li>
+      <li>Tambaú</li>
+      <li>Tanabi</li>
+      <li>Tapiraí</li>
+      <li>Tapiratiba</li>
+      <li>Taquaral</li>
+      <li>Taquaritinga</li>
+      <li>Taquarituba</li>
+      <li>Taquarivaí</li>
+      <li>Tarabai</li>
+      <li>Tarumã</li>
+      <li>Tatuí</li>
+      <li>Taubaté</li>
+      <li>Tejupá</li>
+      <li>Teodoro Sampaio</li>
+      <li>Terra Roxa</li>
+      <li>Tietê</li>
+      <li>Timburi</li>
+      <li>Torre de Pedra</li>
+      <li>Torrinha</li>
+      <li>Trabiju</li>
+      <li>Tremembé</li>
+      <li>Três Fronteiras</li>
+      <li>Tuiuti</li>
+      <li>Tupã</li>
+      <li>Tupi Paulista</li>
+      <li>Turiúba</li>
+      <li>Turmalina</li>
+      <li>Ubarana</li>
+      <li>Ubatuba</li>
+      <li>Ubirajara</li>
+      <li>Uchoa</li>
+      <li>União Paulista</li>
+      <li>Urânia</li>
+      <li>Uru</li>
+      <li>Urupês</li>
+      <li>Valentim Gentil</li>
+      <li>Valinhos</li>
+      <li>Valparaíso</li>
+      <li>Vargem</li>
+      <li>Vargem Grande Paulista</li>
+      <li>Vargem Grande do Sul</li>
+      <li>Várzea Paulista</li>
+      <li>Vera Cruz</li>
+      <li>Vinhedo</li>
+      <li>Viradouro</li>
+      <li>Vista Alegre do Alto</li>
+      <li>Vitória Brasil</li>
+      <li>Votorantim</li>
+      <li>Votuporanga</li>
+      <li>Zacarias</li>
+    </ul>
+  </form>
+  <script src="selectBox.js"></script>
 </body>
 </html>
